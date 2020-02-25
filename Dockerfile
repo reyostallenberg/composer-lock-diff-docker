@@ -8,3 +8,5 @@ RUN cp /tmp/vendor/davidrjonas/composer-lock-diff/composer-lock-diff /usr/local/
 
 CMD composer-lock-diff
 
+ENTRYPOINT composer-lock-diff
+
