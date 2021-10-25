@@ -1,6 +1,6 @@
-FROM composer:1.9.3
+FROM composer:2
 
-RUN composer global require davidrjonas/composer-lock-diff:^1.0@dev
+RUN composer global require davidrjonas/composer-lock-diff:^1.0
 
 RUN ls -lah /tmp
 
